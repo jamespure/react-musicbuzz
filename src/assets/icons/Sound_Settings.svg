@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.333" height="55.308" viewBox="0 0 53.333 55.308">
+  <g id="Sound_Settings" data-name="Sound Settings" transform="translate(-5.333 -3.556)">
+    <path id="Vector" d="M52.744,49.724c-3.312,9.936-29.439,4.14-40.018,1.38-17.939-4.14-8.28-20.7-11.039-26.219s-4.14-12.42,12.419-22.079c12.771-7.45,37.258,1.38,31.738,9.66-8.28,12.419,11.039,24.839,6.9,37.258Z" transform="translate(5.333 3.556)" fill="#efefef"/>
+    <path id="Vector-2" data-name="Vector" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Z" transform="translate(20 23.556)" fill="#db2a6b"/>
+    <g id="Group">
+      <path id="Vector-3" data-name="Vector" d="M0,12A12.011,12.011,0,0,1,14.222.205a12,12,0,0,0,0,23.589A12.011,12.011,0,0,1,0,12Z" transform="translate(20 23.556)" fill="#cd89fd"/>
+      <path id="Vector-4" data-name="Vector" d="M19.111,2.667A16.446,16.446,0,0,0,5.955,28.979l-2.132,1.6a19.111,19.111,0,1,1,30.576,0l-2.132-1.6A16.446,16.446,0,0,0,19.111,2.667Z" transform="translate(12.889 16.444)" fill="#2b2d38"/>
+      <path id="Vector-5" data-name="Vector" d="M12,2.667A9.333,9.333,0,1,0,21.333,12,9.333,9.333,0,0,0,12,2.667ZM0,12A12,12,0,1,1,12,24,12,12,0,0,1,0,12Z" transform="translate(20 23.556)" fill="#2b2d38"/>
+      <path id="Vector-6" data-name="Vector" d="M3.556,5.441,0,1.886,1.886,0,5.441,3.556Z" transform="translate(23.946 27.502)" fill="#2b2d38"/>
+      <path id="Vector-7" data-name="Vector" d="M2.667,3.556a.889.889,0,1,0-.889-.889A.889.889,0,0,0,2.667,3.556Zm0,1.778A2.667,2.667,0,1,0,0,2.667,2.667,2.667,0,0,0,2.667,5.333Z" transform="translate(53.333 17.778)" fill="#a4afc1"/>
+    </g>
+  </g>
+</svg>
