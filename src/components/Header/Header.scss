@@ -8,6 +8,7 @@
 
   .header__menu {
     margin-left: 20px;
+    width: 25px;
   }
   .header__nav {
     display: flex;
@@ -20,10 +21,10 @@
       margin: 0 0 0 48px;
       display: none;
     }
-    .header__logo {
+    .header__logo h1 {
       font-family: "Merriweather", serif;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 2rem;
       text-align: left;
       color: #2b2d38;
     }
@@ -39,33 +40,13 @@
     background-color: #fff;
     border: 1px solid #db2a6b;
     border-radius: 16px;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px 10px;
     box-shadow: 0px 24px 100px rgba(0, 0, 0, 0.1);
   }
 
   .auth__btn__signUp {
     font-size: 12px;
     color: #2b2d38;
-  }
-
-  .header__details h1 {
-    font-family: Merriweather;
-    font-weight: bold;
-    font-size: 80px;
-    text-align: left;
-    color: #2b2d38;
-  }
-  .header__details h3 {
-    font-family: Poppins;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 40px;
-    text-align: left;
-    color: #2b2d38;
-    opacity: 0.5;
-  }
-  .header__ornament {
-    width: 100%;
-    height: 529px;
   }
 }

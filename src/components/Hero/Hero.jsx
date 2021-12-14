@@ -1,50 +1,62 @@
-import { Arrow, Musician, Music_Note, Music_Playlist, Search, Sound_Settings } from "../../assets/icons";
+import {
+  Arrow,
+  Musician,
+  Music_Note,
+  Music_Playlist,
+  Search,
+  Sound_Settings,
+} from "../../assets/icons";
 import Button from "../Button/Button";
 import Ornament from "../../assets/ornament.svg";
-import './Hero.scss';
+import "./Hero.scss";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
-    return (
-      <div className="hero__container">
-        <div className="hero__details">
-          <h1>Let's start with the good music!</h1>
-          <h3>
-            Set your own playlist of your choice from your favorite artists or
-            albums or enjoy our custom made music selection according to your
-            preferences
-          </h3>
-          <Button title="Try Free Trial" />
-          <a href="">
+  return (
+    <div className="hero__container">
+      <div className="hero__details">
+        <h1>Let's start with the good music!</h1>
+        <h3>
+          Set your own playlist of your choice from your favorite artists or
+          albums or enjoy our custom made music selection according to your
+          preferences
+        </h3>
+        <div className="hero__btn__group">
+          <Button title="Try Free Trial" className="hero__btn" />
+          <Link to="" className="hero__learn__more">
             Learn More <img src={Arrow} alt="" />
-          </a>
+          </Link>
         </div>
-        <div className="">
-          <img src={Ornament} alt="" className="hero__ornament" />
+      </div>
+      <div className="hero__search">
+        <img src={Ornament} alt="" className="hero__ornament" />
+        <div className="search__container">
           <input type="text" name="" id="" />
-          <Button title="Search">
+          <Button title="Search" className="hero__btn__search">
             <img src={Search} alt="" />
           </Button>
         </div>
+      </div>
+      <div className="">
         <div className="">
-          <div className="">
-            <img src={Music_Playlist} alt="" />
-            <strong>Playlist Selection</strong>
-          </div>
-          <div className="">
-            <img src={Sound_Settings} alt="" />
-            <strong>Morning Hype</strong>
-          </div>
-          <div className="">
-            <img src={Music_Note} alt="" />
-            <strong>Calming Meditation</strong>
-          </div>
-          <div className="">
-            <img src={Musician} alt="" />
-            <strong>New & Fresh</strong>
-          </div>
+          <img src={Music_Playlist} alt="" />
+          <strong>Playlist Selection</strong>
+        </div>
+        <div className="">
+          <img src={Sound_Settings} alt="" />
+          <strong>Morning Hype</strong>
+        </div>
+        <div className="">
+          <img src={Music_Note} alt="" />
+          <strong>Calming Meditation</strong>
+        </div>
+        <div className="">
+          <img src={Musician} alt="" />
+          <strong>New & Fresh</strong>
         </div>
       </div>
-    );
-}
+    </div>
+  );
+};
 
-export default Hero
+export default Hero;
