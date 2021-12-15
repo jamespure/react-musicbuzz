@@ -103,4 +103,22 @@
       }
     }
   }
+  .hero__category {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 75px 0;
+    gap: 0 30px;
+
+    .hero__category__item {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+
+      strong {
+        margin-left: 25px;
+      }
+    }
+  }
 }

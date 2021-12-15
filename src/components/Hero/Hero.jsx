@@ -37,20 +37,20 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      <div className="">
-        <div className="">
+      <div className="hero__category">
+        <div className="hero__category__item">
           <img src={Music_Playlist} alt="" />
           <strong>Playlist Selection</strong>
         </div>
-        <div className="">
+        <div className="hero__category__item">
           <img src={Sound_Settings} alt="" />
           <strong>Morning Hype</strong>
         </div>
-        <div className="">
+        <div className="hero__category__item">
           <img src={Music_Note} alt="" />
           <strong>Calming Meditation</strong>
         </div>
-        <div className="">
+        <div className="hero__category__item">
           <img src={Musician} alt="" />
           <strong>New & Fresh</strong>
         </div>
