@@ -10,12 +10,13 @@
     h1 {
       //   font-size: 25px;
       font-family: Merriweather;
+      width: 14ch;
       font-weight: bold;
       margin-bottom: 32px;
-      line-height: 45px;
+      line-height: 35px;
     }
 
-    h3 {
+    p {
       //   font-size: 16px;
       font-family: Poppins;
       font-weight: normal;
@@ -120,5 +121,51 @@
         margin-left: 25px;
       }
     }
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .hero__container {
+    .hero__details {
+      h1 {
+        width: 14ch;
+        font-size: 3.75rem;
+        line-height: 75px;
+      }
+      p {
+        font-size: 1.35rem;
+        line-height: 35px;
+        width: 40ch;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__container {
+    .hero__details {
+      h1 {
+        width: 14ch;
+        font-size: 5rem;
+        line-height: 105px;
+      }
+      p {
+        font-size: 1.5rem;
+        line-height: 35px;
+      }
+      .hero__btn__group {
+        .hero__btn {
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .hero__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 75px;
   }
 }

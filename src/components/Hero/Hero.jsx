@@ -14,20 +14,20 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="hero__container">
-      <div className="hero__details">
+      <article className="hero__details">
         <h1>Let's start with the good music!</h1>
-        <h3>
+        <p>
           Set your own playlist of your choice from your favorite artists or
           albums or enjoy our custom made music selection according to your
           preferences
-        </h3>
+        </p>
         <div className="hero__btn__group">
           <Button title="Try Free Trial" className="hero__btn" />
           <Link to="" className="hero__learn__more">
             Learn More <img src={Arrow} alt="" />
           </Link>
         </div>
-      </div>
+      </article>
       <div className="hero__search">
         <img src={Ornament} alt="" className="hero__ornament" />
         <div className="search__container">

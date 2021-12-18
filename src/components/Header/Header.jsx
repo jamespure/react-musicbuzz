@@ -20,7 +20,7 @@ const Header = () => {
         <div className="header__logo">
           <h1>MusicBuzz</h1>
         </div>
-        <div className="">
+        <div className="header__nav__link__container">
           <Link className="header__nav__link" to="">
             Home
           </Link>
@@ -35,6 +35,9 @@ const Header = () => {
           </Link>
         </div>
         <div className="header__btn__group">
+          <Link to="" className="auth__btn__signUp">
+            Sign Up
+          </Link>
           <button to="" className="auth__btn__signIn">
             Sign In
           </button>
